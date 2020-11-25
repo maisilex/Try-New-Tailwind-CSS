@@ -1,0 +1,4 @@
+npx tailwindcss-cli@latest build ./src/global.css -o ./global.css
+NODE_ENV=production npx tailwindcss-cli@latest build ./src/global.css -o ./dist/global.css
+NODE_ENV=production npx tailwindcss-cli@latest build ./src/global.css -o ./global.css
+npx tailwindcss-cli@latest init
